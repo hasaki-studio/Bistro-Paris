@@ -78,11 +78,9 @@ const dico = {
     messagePlaceholder: "Terrasse, apéro huîtres, anniversaire…",
     envoyer: "Envoyer ma demande",
     ouAppeler: "Ou appeler le",
-    merci: "Merci, votre demande est prête à partir.",
-    merciMail:
-      "Votre messagerie s'est ouverte avec le récapitulatif : il ne reste qu'à envoyer.",
-    merciTel:
-      "La réservation se confirme directement avec le restaurant, par téléphone.",
+    merci: "Demande envoyée !",
+    merciTexte:
+      "Vous allez recevoir un e-mail de confirmation. Pensez à vérifier vos courriers indésirables (spams).",
     sujetMail: "Demande de réservation — PARISII Aligre",
   },
   en: {
@@ -159,10 +157,9 @@ const dico = {
     messagePlaceholder: "Terrace, oyster hour, birthday…",
     envoyer: "Send my request",
     ouAppeler: "Or call",
-    merci: "Thank you, your request is ready to send.",
-    merciMail:
-      "Your mail app has opened with the summary: all that's left is to send it.",
-    merciTel: "Bookings are confirmed directly with the restaurant, by phone.",
+    merci: "Request sent!",
+    merciTexte:
+      "You'll receive a confirmation email shortly. Please check your spam/junk folder too.",
     sujetMail: "Booking request — PARISII Aligre",
   },
 } as const;

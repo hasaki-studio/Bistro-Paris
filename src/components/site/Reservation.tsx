@@ -88,9 +88,7 @@ export function Reservation({ open, onClose }: Props) {
             <p className="text-2xl" style={{ fontFamily: "var(--font-serif-note)" }}>
               {t.merci}
             </p>
-            <p className="mt-3 text-sm text-muted-foreground">
-              {infos.email ? t.merciMail : t.merciTel}
-            </p>
+            <p className="mt-3 text-sm text-muted-foreground">{t.merciTexte}</p>
             <div className="mt-6 flex flex-col gap-3">
               {infos.telephone && (
                 <a href={`tel:${tel}`} className="btn-ochre w-full">
