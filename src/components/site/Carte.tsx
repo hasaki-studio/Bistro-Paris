@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { carte } from "@/data/restaurant";
-import plat from "@/assets/plat.png.asset.json";
 import { useLang } from "@/lib/lang";
 
 export function Carte() {
@@ -80,7 +79,7 @@ export function Carte() {
 
           <div className="hidden lg:block">
             <img
-              src={plat.url}
+              src="/images/plat.png"
               alt="Plat de la carte servi avec un verre de vin rouge"
               loading="lazy"
               className="sticky top-28 w-full rounded-md object-cover"

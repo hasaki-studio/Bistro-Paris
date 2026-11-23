@@ -1,4 +1,3 @@
-import facade from "@/assets/facade.png.asset.json";
 import { infos } from "@/data/restaurant";
 import { openReservation } from "@/lib/reservation";
 import { useLang } from "@/lib/lang";
@@ -9,7 +8,7 @@ export function Hero() {
   return (
     <section id="top" className="relative min-h-[92svh] w-full overflow-hidden">
       <img
-        src={facade.url}
+        src="/images/facade.png"
         alt="La façade et la terrasse de PARISII Aligre, place d'Aligre à Paris"
         className="absolute inset-0 h-full w-full object-cover object-center"
         width={1280}

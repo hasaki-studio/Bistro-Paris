@@ -1,5 +1,3 @@
-import huitres from "@/assets/apero-huitres.png.asset.json";
-import houmous from "@/assets/houmous.png.asset.json";
 import { apero, happyHour } from "@/data/restaurant";
 import { openReservation } from "@/lib/reservation";
 import { useLang } from "@/lib/lang";
@@ -37,7 +35,7 @@ export function Apero() {
             </div>
             <div className="relative min-h-64">
               <img
-                src={huitres.url}
+                src="/images/apero-huitres.png"
                 alt="Plateau d'huîtres fraîches, pain et verres de vin blanc en terrasse chez PARISII"
                 loading="lazy"
                 className="h-full w-full object-cover"
@@ -50,7 +48,7 @@ export function Apero() {
         <div className="mt-20 grid items-center gap-10 md:grid-cols-2">
           <div className="relative">
             <img
-              src={houmous.url}
+              src="/images/houmous.png"
               alt="Houmous, pain grillé et verre à partager à l'apéro"
               loading="lazy"
               className="w-full rounded-md object-cover"
